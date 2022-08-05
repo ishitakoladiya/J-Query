@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css("color", "green")
+      .slideUp(2000);
+    });  
+});  
+</script>
+
+</head>
+<body>
+<p id="p1">
+<b>This is a little poem: </b><br/>
+It is hot.<br/>
+The sky is blue.<br/>
+A little cloud comes looking for you.<br/>
+More clouds come.<br/>
+They bring rain.<br/>
+Sing and dance.<br/>
+it's cool again!
+</p>
+<button id="hide">Hide</button>
+</body>
+</html>
